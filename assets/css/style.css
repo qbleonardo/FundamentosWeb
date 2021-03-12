@@ -55,3 +55,14 @@
 .icon {
     height: 30px;
 }
+
+.left {
+    margin: 50px;
+
+}
+
+.size {
+    width: 350;
+    height: 250;
+    padding-left: 50px;
+}

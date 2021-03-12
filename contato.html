@@ -1,0 +1,58 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="">Contato</a></li>
+    </ul>
+    <hr>
+    <h1 class="center">Entre em contato conosco</h1> 
+    <hr>
+    <div class="container">
+    <div> 
+            <h3>Envie-nos uma mensagem</h3> 
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" onkeyup="validaNome()">
+            <div id="txtNome"></div>
+            <br>
+            <br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" onkeyup='validaEmail()'>
+            <div id="txtEmail"></div>
+            <br>
+            <br>
+            <label for="assunto">Assunto</label><br>
+            <textarea name="assunto" id="assunto" cols="30" rows="5" onkeyup="validaAssunto()"></textarea>
+            <div id='txtAssunto'></div>
+            <br>
+            <br>
+            <button onclick="enviar()">Enviar</button>
+        </form> </div>
+        <img class="size" src="assets/img/piano.jpg">
+    </div>
+    <div class="container">
+        <iframe class="left" width="560"
+        height="320"
+        src="https://www.youtube.com/embed/3zrSoHgAAWo"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write;
+         encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <hr>
+    <footer>   
+        <a href="https://www.linkedin.com/in/leonardo-burjato/" target="_blank">
+        <div class="container"><img class="icon" src="assets/img/linkedin.png" alt="Logo do Linkedin"></div>
+        </a>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
